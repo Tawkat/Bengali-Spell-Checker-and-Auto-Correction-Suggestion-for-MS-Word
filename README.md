@@ -5,9 +5,9 @@
 3. Edit distance algorithm is used for auto correction suggestion and most probable word is suggested which is at most 2 edit distance        away.
 
 
-# UX Image
+# UI Image
 
-![UX IMAGE](UX_image.png)
+![UI IMAGE](UI_image.png)
 
 
 
