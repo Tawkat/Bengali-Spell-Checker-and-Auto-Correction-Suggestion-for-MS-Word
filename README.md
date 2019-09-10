@@ -1,4 +1,4 @@
-# Bengali-Spell-Checker-for-MS-Word
+# Bengali-Spell-Checker-and-Auto-Correction-Suggestion-for-MS-Word
 
 1. This is the first spell checker and auto word correction suggestion for Bengali words in Microsoft Word.
 2. Data dump is crawled from The Daily Prothom Alo newspaper.
