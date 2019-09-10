@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Word Add-In with Commands Sample</title>
+
+    <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="Scripts/FabricUI/MessageBanner.js" type="text/javascript"></script>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!-- <script src="Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="Scripts/Office/1/office.js" type="text/javascript"></script>  -->
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+
+    <script src="util.js" type="text/javascript"></script>
+    <script src="GlobalVariable.js" type="text/javascript"></script>
+    <script src="Dummy_Algo_Word.js" type="text/javascript"></script>
+    <script src="Dummy_Algo_Sent.js" type="text/javascript"></script>
+    <script src="GetSuggestedList.js" type="text/javascript"></script>
+    <script src="StoreDB.js" type="text/javascript"></script>
+    <script src="CreateSuggestionRadios.js" type="text/javascript"></script>
+    <script src="ChangePart.js" type="text/javascript"></script>
+    <script src="Home.js" type="text/javascript"></script>
+
+    <!-- For the Office UI Fabric, go to https://aka.ms/office-ui-fabric to learn more. -->
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.min.css">
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css">
+
+    <!-- To enable the offline use of Office UI Fabric, use: -->
+    <!-- link rel="stylesheet" href="Content/fabric.min.css" -->
+    <!-- link rel="stylesheet" href="Content/fabric.components.min.css" -->
+</head>
+<body>
+    <div id="content-header">
+        <div class="padding">
+            <h3>মোদের গরব মোদের আশা আমরি বাংলা ভাষা</h3>
+        </div>
+    </div>
+    <div id="content-main">
+        <div class="padding">
+            <!--<p>Choose the buttons below to add boilerplate text to the document by using the Word JavaScript API.</p>
+    <br />-->
+            <h1 style="color:navy">পরীক্ষা করুন</h1>
+            <br /><br />
+
+            <button id="detectButton">ভুল চিহ্নিত করুন</button>
+            <br /><br />
+
+            <button id="selectButton">পছন্দ করুন</button>
+            <p id="nullSelected" style="color:red;"></p>
+
+            <div id="radio_container"></div>
+            <button id="correctButton" style="visibility:hidden;">পরিবর্তন করুন</button>
+
+        </div>
+        <h2 id="debugger"></h2>
+        <h2 id="debugger2"></h2>
+
+    </div>
+    <br />
+    <div id="supportedVersion" />
+</body>
+</html>
