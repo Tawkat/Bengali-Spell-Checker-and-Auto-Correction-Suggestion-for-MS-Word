@@ -2,7 +2,7 @@
 
 1. This is the first spell checker and auto word correction suggestion for Bengali words in Microsoft Word.
 2. Data dump is crawled from The Daily Prothom Alo newspaper.
-3. Edit distance algorithm is used for auto correction suggestion and most probable word is suggested which is at most 2 edit distance        away.
+3. Edit distance algorithm is used for auto correction suggestion and most probable word is suggested within 2 edit distance away.
 
 
 # UI Image
