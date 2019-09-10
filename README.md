@@ -4,7 +4,7 @@
 2. Data dump is crawled from The Daily Prothom Alo newspaper.
 3. Edit distance algorithm is used for auto correction suggestion and most probable word is suggested which is at most 2 edit distance        away.
 
-!alt[UX IMAGE](UX_image.png)
+!UX IMAGE(UX_image.png)
 
 # How to Run
 1. Go to spell checker and start command prompt
